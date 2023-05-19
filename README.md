@@ -1,5 +1,7 @@
 # 『深入探究：React Hooks 工作原理』文章的代码仓库
 
+文章地址：<https://juejin.cn/post/7231106434834268221>
+
 ## 案例 0 - 基础版本 `useState()`
 
 我们实现了基本版本的 `useState()`，不过 `currentState` 是个函数。
