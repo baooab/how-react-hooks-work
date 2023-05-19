@@ -14,6 +14,6 @@ export function useState(initialValue) {
 }
 
 var [foo, setFoo] = useState(0) // 使用数组解构
-console.log(foo()) // 0 - 得到刚传入的 initialValue 的值
+console.log(foo) // 0 - 得到刚传入的 initialValue 的值
 setFoo(1) // 设置 useState 作用域内的 `_val`
-console.log(foo()) // 0 - 天哪，有 BUG！！
+console.log(foo) // 0 - 天哪，有 BUG！！
